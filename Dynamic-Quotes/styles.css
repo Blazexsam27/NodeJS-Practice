@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background: #113;
+}
+
+.container {
+	width: 50%;
+	height: 50%;
+	background: blue;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.innerbox {
+	width: 90%;
+	height: 90%;
+	background: floralwhite;
+	color: black;
+	border-radius: 10px;
+	display: grid;
+	place-items: center;
+}
+
+.innerbox #icons {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.insta-img {
+	height: 25px;
+	width: 25px;
+}
+
+.quote-img {
+	font-size: 65px;
+	color: gray;
+}
+
+#quote, #author {
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	padding: 10px;
+}

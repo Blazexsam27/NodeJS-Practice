@@ -1,0 +1,4 @@
+npm install // for installing required packages.
+npm install --save-dev nodemon  // install a live server as dev dependencies.
+npm uninstall nodemond // for uninstalling package.
+npm init // initialize package.json.
